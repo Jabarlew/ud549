@@ -1,10 +1,14 @@
 class AddressBook {
-    addContact() {
-
+    constructor() {
+        this.contacts = [];
     }
 
-    getContact() {
-
+    getContact(num) {
+        return this.contacts[num];
+    }
+    addContact(contact) {
+       this.contacts.push(contact);
     }
 }
 
+let addressBook = new AddressBook();

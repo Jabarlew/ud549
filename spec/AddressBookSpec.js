@@ -1,7 +1,7 @@
 describe('Address Book', function() {
     it('should be able to add a contact', () => {
-        let addressBook = new AddressBook(),
-            thisContact = new Contact();
+        let addressBook = new AddressBook();
+        let thisContact = new Contact();
 
         addressBook.addContact(thisContact);
 
