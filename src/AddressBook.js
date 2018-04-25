@@ -9,6 +9,7 @@ class AddressBook {
     addContact(contact) {
        this.contacts.push(contact);
     }
+    deleteContact(num, items= 1) {
+        this.contacts.splice(num);
+    }
 }
-
-let addressBook = new AddressBook();
